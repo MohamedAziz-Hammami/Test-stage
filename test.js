@@ -3,7 +3,7 @@ const fs = require('fs');
 function getnumbersfromstring(string) {
     const numbers = string.match(/[0-9]+/g);
     if (numbers) {
-        var concatenatedNumber = '';
+        var num1 = '';
         for (var num of numbers) {
             num1 += num;
         }
