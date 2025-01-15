@@ -5,9 +5,9 @@ function getnumbersfromstring(string) {
     if (numbers) {
         var concatenatedNumber = '';
         for (var num of numbers) {
-            concatenatedNumber += num;
+            num1 += num;
         }
-        return Number(concatenatedNumber);
+        return Number(num1);
     }
     return 0;
 }
